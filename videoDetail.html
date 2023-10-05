@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>video page</title>
+    <link rel="shortcut icon" href="./Assets/youtube.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- ------- navigation-bar ----- -->
+    <div class="nav-bar">
+        <div class="logo-element">
+          <img src="Assets/hamburger.svg" alt="menu">
+          <img src="Assets/Youtube-Logo.svg" alt="logo">
+        </div>
+        <div class="search-element">
+           <div class="search-bar">
+               <input type="text" placeholder="Search videos" id="search">
+               <button id="btn"> <img src="Assets/search.svg" alt="search"></button>
+           </div>
+             <img src="Assets/mic.svg" alt="mic">
+        </div>
+        <div class="profile-element">
+           <img src="Assets/Create.svg" alt="create">
+           <img src="Assets/apps.svg" alt="apps">
+           <img src="Assets/Notifications.svg" alt="Notifications">
+           <img src="Assets/Profile.svg" alt="profile">
+        </div>
+        </div>
+    
+        <!------- Play video page-----  -->
+     <div class="video-play-Page">
+        <div class="video-Player">
+            <div class="player-card" id="player-card">
+                <div id="video-placeholder">
+                 <!-- <img src="./Assets/Youtube player.svg" alt="video"> -->
+                </div>
+               
+
+            </div>
+            <div id="channeldiv">
+               
+            </div>
+          
+
+            <div class="comments" id="comments">
+                 <div>
+                    <p>286 Comments</p>
+                    <img src="./Assets/Dropdown.svg" alt="img">
+                    <p>SORT BY</p>
+                </div>
+                <div>
+                    <img src="./Assets/User-1.svg" alt="user"class="profile">
+                    <input type="text" placeholder="Add a public comment...">
+                </div> 
+               
+            </div>
+        </div>
+        <div class="recommended-video">
+         <div class="R-btn">
+            <button>All</button>
+            <button>From Marcus Levin</button>
+         </div>
+       
+
+        </div>
+     </div>
+<script src="https://www.youtube.com/iframe_api"></script>
+<script src="videoDetail.js"></script>
+</body>
+</html>
